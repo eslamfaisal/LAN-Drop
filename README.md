@@ -1,7 +1,3 @@
-awesome — here are **three production-ready README files** you can drop into your repo. they’re designed for Cursor to act like your “principal engineer”, implement the app end-to-end using Flutter with Clean Architecture + BLoC, and keep you out of policy trouble on iOS/Android/desktop.
-
----
-
 # README.md — LAN Drop (overview, design, and implementation guide)
 
 ## 1) Product idea (deep description)
