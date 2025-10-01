@@ -1,0 +1,17 @@
+name: thread_domain
+description: Domain layer for the thread feature.
+publish_to: 'none'
+resolution: workspace
+
+environment:
+  sdk: '>=3.9.2 <4.0.0'
+
+dependencies:
+  core_domain:
+    path: ../../../core/core_domain
+  core_usecases:
+    path: ../../../core/core_usecases
+  equatable: ^2.0.5
+
+dev_dependencies:
+  test: ^1.24.0

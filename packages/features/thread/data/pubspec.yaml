@@ -1,0 +1,21 @@
+name: thread_data
+description: Data layer for the thread feature.
+publish_to: 'none'
+resolution: workspace
+
+environment:
+  sdk: '>=3.9.2 <4.0.0'
+
+dependencies:
+  core_domain:
+    path: ../../../core/core_domain
+  thread_domain:
+    path: ../domain
+  transport_tcp:
+    path: ../../../platform/transport_tcp
+  transport_webrtc:
+    path: ../../../platform/transport_webrtc
+  equatable: ^2.0.5
+
+dev_dependencies:
+  test: ^1.24.0

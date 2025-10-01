@@ -1,0 +1,16 @@
+name: transport_tcp
+description: TCP socket transport implementation for mobile and desktop.
+publish_to: 'none'
+resolution: workspace
+
+environment:
+  sdk: '>=3.9.2 <4.0.0'
+
+dependencies:
+  core_domain:
+    path: ../../core/core_domain
+  core_protocol:
+    path: ../../core/core_protocol
+
+dev_dependencies:
+  test: ^1.24.0

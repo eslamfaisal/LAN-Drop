@@ -1,0 +1,22 @@
+name: settings_presentation
+description: Presentation layer for the settings feature.
+publish_to: 'none'
+resolution: workspace
+
+environment:
+  sdk: '>=3.9.2 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  settings_domain:
+    path: ../domain
+  settings_data:
+    path: ../data
+  flutter_bloc: ^8.1.2
+  get_it: ^7.2.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0

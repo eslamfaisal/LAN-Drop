@@ -1,0 +1,13 @@
+name: core_testing
+description: Shared testing utilities, fakes, and mocks for core packages.
+publish_to: 'none'
+resolution: workspace
+
+environment:
+  sdk: '>=3.9.2 <4.0.0'
+
+dependencies:
+  core_domain:
+    path: ../core_domain
+  core_usecases:
+    path: ../core_usecases

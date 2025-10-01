@@ -1,0 +1,19 @@
+name: transport_webrtc
+description: WebRTC transport implementation for web.
+publish_to: 'none'
+resolution: workspace
+
+environment:
+  sdk: '>=3.9.2 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  core_domain:
+    path: ../../core/core_domain
+  core_protocol:
+    path: ../../core/core_protocol
+  flutter_webrtc: ^0.9.45
+
+dev_dependencies:
+  test: ^1.24.0

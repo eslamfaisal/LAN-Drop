@@ -1,0 +1,21 @@
+name: peers_data
+description: Data layer for the peers feature.
+publish_to: 'none'
+resolution: workspace
+
+environment:
+  sdk: '>=3.9.2 <4.0.0'
+
+dependencies:
+  core_domain:
+    path: ../../../core/core_domain
+  peers_domain:
+    path: ../domain
+  discovery_dns_sd:
+    path: ../../../platform/discovery_dns_sd
+  persistence_kv:
+    path: ../../../platform/persistence_kv
+  equatable: ^2.0.5
+
+dev_dependencies:
+  test: ^1.24.0

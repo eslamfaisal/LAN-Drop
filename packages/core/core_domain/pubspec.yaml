@@ -1,0 +1,14 @@
+name: core_domain
+description: Core domain models, entities, and business logic for LAN Drop.
+publish_to: 'none'
+resolution: workspace
+
+environment:
+  sdk: '>=3.9.2 <4.0.0'
+
+dependencies:
+  equatable: ^2.0.5
+  uuid: ^4.0.0
+
+dev_dependencies:
+  test: ^1.24.0

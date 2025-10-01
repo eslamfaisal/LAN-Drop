@@ -1,0 +1,26 @@
+name: landrop
+description: A cross-platform local network file transfer and chat app.
+publish_to: 'none' # This repo is not intended for publication on pub.dev
+
+environment:
+  sdk: '^3.9.2'
+
+workspace:
+  - app
+  - packages/core/core_domain
+  - packages/core/core_usecases
+  - packages/core/core_protocol
+  - packages/core/core_testing
+  - packages/platform/discovery_dns_sd
+  - packages/platform/transport_tcp
+  - packages/platform/transport_webrtc
+  - packages/platform/persistence_kv
+  - packages/features/peers/domain
+  - packages/features/peers/data
+  - packages/features/peers/presentation
+  - packages/features/thread/domain
+  - packages/features/thread/data
+  - packages/features/thread/presentation
+  - packages/features/settings/domain
+  - packages/features/settings/data
+  - packages/features/settings/presentation

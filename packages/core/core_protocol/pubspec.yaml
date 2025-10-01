@@ -1,0 +1,14 @@
+name: core_protocol
+description: Data transfer protocol definitions, headers, and serializers.
+publish_to: 'none'
+resolution: workspace
+
+environment:
+  sdk: '>=3.9.2 <4.0.0'
+
+dependencies:
+  core_domain:
+    path: ../core_domain
+
+dev_dependencies:
+  test: ^1.24.0
